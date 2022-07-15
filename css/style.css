@@ -1,0 +1,33 @@
+body{
+    font-family: Lucida Bright, 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.main-color {
+    background-color: gray !important;
+}
+/*banner*/
+.banner{
+    height: 80vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)),url('../image/ban.jpg');
+    background-size: cover;
+    background-position: center;
+}
+/*transisi*/
+.hovered-card{
+    transition: 0.3s;
+}
+/*zoom promo*/
+.hovered-card:hover{
+    transform: scale(1.1);
+}
+/*kami melayani*/
+.icon-service{
+    width: 90px;
+    height: 90px;
+    border: solid #fff 2px;
+    border-radius: 50%;
+    color: #fff;
+}
+/*temui saya*/
+.content-subscribe{
+    background-color: sienna;
+}
